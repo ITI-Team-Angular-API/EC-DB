@@ -309,21 +309,21 @@ GO
 SET IDENTITY_INSERT [dbo].[Products] ON 
 GO
 INSERT [dbo].[Products] ([Id], [Name], [Details], [Price], [Image], [Quantity], [CategoryId]) VALUES 
-(1, 'IPhone 6', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 10000, 'IPhone6.jpg', 4, 1),
-(2, 'IPhone 7', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 12000, 'IPhone7.jpg', 5, 1),
-(3, 'IPhone 12', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 14000, 'IPhone12.jpg', 3, 1),
-(4, 'Samsung Galaxy 11', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 11000, 'Samsung11.jpg', 9, 2),
-(5, 'Samsung 10s', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 9500, 'Samsung10s.jpg', 8, 2),
-(6, 'Samsung Galaxy s10 plus', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 10000, 'SamsungS10Plus.jpg', 6, 2),
-(7, 'Huawei P9', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 6000, 'HuaweiP9.jpg', 20, 3),
-(8, 'Huawei P10', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 8000, 'HuaweiP10.jpg', 18, 3),
-(9, 'Huawei 4G', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 9000, 'Huawei4G.jpg', 12, 3),
-(10, 'Oppo F5', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 10000, 'OppoF5.jpg', 11, 4),
-(11, 'Oppo R15', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 11000, 'OppoR15.jpg', 7, 4),
-(12, 'Oppo N3', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 9000, 'OppoN3.jpg', 2, 4),
-(13, 'Lenovo S5', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 6000, 'LenovoS5.jpg', 15, 5),
-(14, 'Lenovo P70', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 7000, 'LenovoP70.jpg', 10, 5),
-(15, 'Lenovo K900', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 6500, 'LenovoK900.jpg', 13, 5);
+(1, 'IPhone 6', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 10000, 'IPhone6.jpeg', 4, 1),
+(2, 'IPhone 7', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 12000, 'IPhone7.jpeg', 5, 1),
+(3, 'IPhone 12', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 14000, 'IPhone12.jpeg', 3, 1),
+(4, 'Samsung Galaxy 11', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 11000, 'Samsung11.jpeg', 9, 2),
+(5, 'Samsung 10s', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 9500, 'Samsung10s.jpeg', 8, 2),
+(6, 'Samsung Galaxy s10 plus', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 10000, 'SamsungS10Plus.jpeg', 6, 2),
+(7, 'Huawei P9', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 6000, 'HuaweiP9.jpeg', 20, 3),
+(8, 'Huawei P10', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 8000, 'HuaweiP10.jpeg', 18, 3),
+(9, 'Huawei 4G', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 9000, 'Huawei4G.jpeg', 12, 3),
+(10, 'Oppo F5', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 10000, 'OppoF5.jpeg', 11, 4),
+(11, 'Oppo R15', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 11000, 'OppoR15.jpeg', 7, 4),
+(12, 'Oppo N3', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 9000, 'OppoN3.jpeg', 2, 4),
+(13, 'Lenovo S5', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 6000, 'LenovoS5.jpeg', 15, 5),
+(14, 'Lenovo P70', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 7000, 'LenovoP70.jpeg', 10, 5),
+(15, 'Lenovo K900', 'Lorem ipsum dolor sit amet, consectetur adipisicin', 6500, 'LenovoK900.jpeg', 13, 5);
 GO
 
 SET IDENTITY_INSERT [dbo].[Products] OFF
